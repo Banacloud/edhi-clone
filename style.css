@@ -177,7 +177,7 @@ footer{
   font-family: footerfont;
   width: 98.72vw;
   background-color: rgb(30,33,39);
-  height: 90vh;
+  height: 100vh;
   display: block;
   
 }
@@ -189,7 +189,7 @@ footer{
   height: 90%;
   align-items: center;
   justify-content: center;
-  background-color: rgb(44, 42, 39);
+  background-color: rgb(30,33,39);
   margin-top: 0%;
   margin-bottom: 0%;
   /* margin-left: 10%; */
@@ -203,14 +203,14 @@ footer{
   height: 100%;
 }
 .footcontent2{
-  top: 21%;
+  top: 31%;
   left: 0;
   right: 0;
   position: absolute;
   display: flex;
   width: 100%;
   height: 80%;
-  background-color: rgb(83, 77, 67);
+  background-color: rgb(30,33,39);
   margin-top: 0%;
   margin-bottom: 0%;
   /* margin-left: 10%; */
@@ -221,7 +221,7 @@ footer{
 .linef{
   width: 90%;
   height: 0.1%;
-  top: 20%;
+  top: 30%;
   align-items: center;
   justify-content: center;
   margin: auto;
@@ -229,7 +229,7 @@ footer{
   background-color: white;
 }
 .pec,.io,.act{
-  margin-top: 5%;
+  margin-top: 4%;
   width: 180px;
 }
 .pec .pecli, .io .ioli, .act .actli{
@@ -237,6 +237,7 @@ footer{
   margin-top: 2%;
   font-family: footerfont;
   color: red;
+  cursor: pointer;
   list-style-type: disc;
   
 }
@@ -251,6 +252,15 @@ footer{
 }
 .pec ,.io , .act p{
   font-size: 1.5;
+  color: white;
+}
+.pecli:hover{
+  color: white;
+}
+.ioli:hover{
+  color: white;
+}
+.actli:hover{
   color: white;
 }
 .paymentf{
@@ -268,6 +278,13 @@ footer{
   left: 0;
   top: 20%;
 
+}
+p#followpf{
+  margin: auto;
+  position: absolute;
+  top: 350px;
+  left: 475px;
+  color: white;
 }
 .followlinef{
   top: 80%;
@@ -321,4 +338,29 @@ footer{
 }
 .ficonli:nth-child(7){
   background-color: rgb(255,0,0);
+}
+.endf{
+  background-color: black;
+  width: 98.72vw;
+  height: 30px;
+  position: relative;
+  margin: auto;
+  justify-content: space-between;
+  display: flex;
+  bottom: -20px;
+}
+.copyrightf{
+  /* position: absolute; */
+  width: fit-content;
+  height: 30px;
+  color: white;
+  font-size: 0.6em;
+}
+.livebits{
+  width: fit-content;
+  /* position: absolute; */
+  height: 30px;
+  color: white;
+  font-size: 0.6em;
+
 }
