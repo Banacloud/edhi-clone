@@ -315,6 +315,7 @@ p#followpf{
   position: relative;
   height: 70%;
   width: 15%;
+  border-radius: 2px;
   /* border: 1px solid black; */
 }
 .fa{
