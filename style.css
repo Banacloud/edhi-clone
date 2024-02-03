@@ -5,6 +5,15 @@
 ::selection {
   background-color: red;
 }
+/* footerfont */
+@font-face {
+  font-family: footerfont;
+  src: url(fonts/Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: footerfontthin;
+  src: url(fonts/Poppins-Thin.ttf);
+}
 
 /* Header start */
 
@@ -158,3 +167,132 @@ main {
 }
 
 /* main end */
+
+
+
+
+
+/* Footer starts here */
+footer{
+  font-family: footerfont;
+  width: 98.72vw;
+  background-color: rgb(30,33,39);
+  height: 90vh;
+  display: block;
+  
+}
+.footcontent{
+  /* font-size: 0.8em; */
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 90%;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(44, 42, 39);
+  margin-top: 0%;
+  margin-bottom: 0%;
+  /* margin-left: 10%; */
+  margin-right: 20%;
+
+}
+.footermain{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.footcontent2{
+  top: 21%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 80%;
+  background-color: rgb(83, 77, 67);
+  margin-top: 0%;
+  margin-bottom: 0%;
+  /* margin-left: 10%; */
+  margin-right: 20%;
+  justify-content: space-around;
+
+}
+.linef{
+  width: 90%;
+  height: 0.1%;
+  top: 20%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: absolute;
+  background-color: white;
+}
+.pec,.io,.act{
+  margin-top: 5%;
+  width: 180px;
+}
+.pec .pecli, .io .ioli, .act .actli{
+  font-size: 0.7em;
+  margin-top: 2%;
+  font-family: footerfont;
+  color: red;
+  list-style-type: disc;
+  
+}
+.actli::marker{
+  color: white;
+}
+.ioli::marker{
+  color: white;
+}
+.pecli::marker{
+  color: white;
+}
+.pec ,.io , .act p{
+  font-size: 1.5;
+  color: white;
+}
+.paymentf{
+  top: 10%;
+  width: 200px;
+  height: 150px;
+  position: relative;
+  display: block;
+  color: white;
+}
+.paymentf img{
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  left: 0;
+  top: 20%;
+
+}
+.followlinef{
+  top: 80%;
+  display: flex;
+  background-color: aliceblue;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  justify-content: space-around;
+}
+.ficon{
+  position: absolute;
+  text-align: center;
+  vertical-align: center;
+}
+.ficonli{
+  top: 15%;
+  vertical-align: middle;
+  list-style-type: none;
+  text-align: center;
+  position: relative;
+  height: 70%;
+  width: 13%;
+  background-color: pink;
+}
+.fa{
+  color: white;
+  font-size: 15px;
+}
