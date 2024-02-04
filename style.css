@@ -20,7 +20,6 @@
   src: url(fonts/Poppins-Thin.ttf);
 }
 
-
 /* Header start */
 
 header {
@@ -197,10 +196,6 @@ li:hover img {
 
 /* main end */
 
-
-
-
-
 /* Footer starts here */
 footer {
   font-family: footerfont;
@@ -210,7 +205,6 @@ footer {
   position: absolute;
   bottom: -286%;
   display: block;
-
 }
 
 .footcontent {
@@ -226,7 +220,6 @@ footer {
   margin-bottom: 0%;
   /* margin-left: 10%; */
   margin-right: 20%;
-
 }
 
 .footermain {
@@ -250,7 +243,6 @@ footer {
   /* margin-left: 10%; */
   margin-right: 20%;
   justify-content: space-around;
-
 }
 
 .linef {
@@ -280,7 +272,6 @@ footer {
   color: red;
   cursor: pointer;
   list-style-type: disc;
-
 }
 
 .actli::marker {
@@ -329,14 +320,13 @@ footer {
   height: 70px;
   left: 0;
   top: 20%;
-
 }
 
-p#followpf {
-  margin: auto;
+#followpf {
+  /* margin: auto; */
   position: absolute;
-  top: 350px;
-  left: 475px;
+  top: 395px;
+  left: 575px;
   color: white;
 }
 
@@ -372,6 +362,9 @@ p#followpf {
   height: 70%;
   width: 15%;
   border-radius: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   /* border: 1px solid black; */
 }
 
@@ -405,13 +398,14 @@ p#followpf {
 }
 
 .endf {
-  background-color: black;
+  background-color: #16191e;
   width: 98.72vw;
-  height: 30px;
+  height: 8vh;
   position: relative;
-  margin: auto;
-  justify-content: space-between;
+  /* margin: auto; */
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   bottom: -20px;
 }
 
@@ -419,15 +413,26 @@ p#followpf {
   /* position: absolute; */
   width: fit-content;
   height: 30px;
-  color: white;
-  font-size: 0.6em;
+  color: #7d7e7f;
+  font-size: 0.7em;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  letter-spacing: 1px;
 }
 
 .livebits {
   width: fit-content;
   /* position: absolute; */
   height: 30px;
-  color: white;
-  font-size: 0.6em;
-
+  color: #dee7f2;
+  font-size: 0.7em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.livebits span {
+  padding-inline: 4px;
+  color: #7d7d7e;
 }
